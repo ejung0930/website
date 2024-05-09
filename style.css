@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:0;
+}
+.a,
+.b,
+.c {
+	list-style: none;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-size:1.6vw;
+	width:15vw;
+	height:15vw;
+	background-color:white;
+	margin:5vw;
+	border-radius:20px;
+	box-shadow: 1px 2px 8px 10px white;
+}
+a{
+	color:black;
+	border-radius:40px;
+	text-decoration:none;
+	transition:background-color 0.2s ease;
+}
+a:hover{
+	color:springgreen;
+}
+ul{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap: wrap;
+}
+header{
+	position:fixed;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+	flex-direction:column;
+	
+}
+body{
+	background:linear-gradient(white 5%,springgreen);
+	width: 100vw;
+}
+h1{
+	width:100vw;
+	color:black;
+	background:radial-gradient(springgreen ,white 80%);
+	letter-spacing: 2.0px;
+	padding: 20px;
+	
+}
+nav{
+	padding-top:30px;
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: column;
+
+}
+.list{
+	list-style: none;
+	background-color:black;
+	color:white;
+	padding:8px;
+
+}
+article{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content:center;
+	flex-direction:row;
+}
+section{
+	width:850px;
+	height:1150px;
+	background-color: white;
+	border-radius:20px;
+	box-shadow: 1px 2px 8px 10px white;
+	text-align: center;
+	margin:200px;
+	padding:30px;
+	color: black;
+}
+h2{
+	margin:15px;
+	font-size:40px;
+}
+p{
+	margin:20px;
+	word-break: keep-all;
+	letter-spacing:1.5px;
+	line-height: 1.8;
+	font-size:17.0px;
+}
+iframe{
+	margin:20px;
+}
+.link{
+	background-color:springgreen;
+	border-radius: 0px;
+	padding:3px;
+	text-decoration:underline;
+	text-underline-offset:3px;
+	transition:background-color 0.2s ease;
+}
+.link:hover{
+	color:white;
+}
+.p1{
+	padding:15px;
+	margin: 100px;
+	font-size:1.2vw;
+	letter-spacing:0.3vw;
+	text-decoration:underline;
+	text-underline-offset:10px;
+}
+footer{
+	background-color:white;
+	position:fixed;
+	bottom:0;
+	padding:3px;
+}
+@media screen and (max-width:900px){
+	section{
+		height:1280px ;
+	}
+}
